@@ -38,15 +38,14 @@ while durchlauf <= durchlaufe:
                 if not zahl2 in ziehung:
                     ziehung.append(zahl2)
 
-        x = 0
         y = 0
         while y < len(tipp):
+            x = 0
             while x < len(tipp):
                 if tipp[x] == ziehung[y]:
                     richtige += 1
                 x += 1
             y += 1
-            x = 0
         wieoft += 1
         print("Durchlauf", (durchlauf), "| Ziehung ",
               wieoft, "| Richtige", richtige)
