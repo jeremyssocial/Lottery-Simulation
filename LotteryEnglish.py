@@ -38,15 +38,14 @@ while run <= runs:
                 if not number2 in drawing:
                     drawing.append(number2)
 
-        x = 0
         y = 0
         while y < len(guess):
+            x = 0
             while x < len(guess):
                 if guess[x] == drawing[y]:
                     correct += 1
                 x += 1
             y += 1
-            x = 0
         howoften += 1
         print("run", (run), "| draw ",
               howoften, "| correct", correct)
