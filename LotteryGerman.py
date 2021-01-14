@@ -29,12 +29,12 @@ while durchlauf <= durchlaufe:
 
         while len(tipp) < 6:
             if len(tipp) < 6:
-                zahl = random.randint(1, 50)
+                zahl = random.randint(1, 49)
                 if not zahl in tipp:
                     tipp.append(zahl)
         while len(ziehung) < 6:
             if len(ziehung) < 6:
-                zahl2 = random.randint(1, 50)
+                zahl2 = random.randint(1, 49)
                 if not zahl2 in ziehung:
                     ziehung.append(zahl2)
 
