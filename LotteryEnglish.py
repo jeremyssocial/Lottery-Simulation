@@ -29,12 +29,12 @@ while run <= runs:
 
         while len(guess) < 6:
             if len(guess) < 6:
-                number = random.randint(1, 50)
+                number = random.randint(1, 49)
                 if not number in guess:
                     guess.append(number)
         while len(drawing) < 6:
             if len(drawing) < 6:
-                number2 = random.randint(1, 50)
+                number2 = random.randint(1, 49)
                 if not number2 in drawing:
                     drawing.append(number2)
 
